@@ -1,7 +1,12 @@
 #include <iostream>
+#include <vector>
+#include <functional>
+#include <cmath>
 using namespace std;
 
-void printmatrix(float** matrix, int m, int n)
+// TODO: rewrite in terms of Matrix and Vector classes
+
+void printmatrix(double** matrix, int m, int n)
 {
     for(int i = 0; i < m; i++){
         for(int j = 0; j < n; j++){
@@ -11,7 +16,7 @@ void printmatrix(float** matrix, int m, int n)
     }
 }
 
-void printvector(float* vector, int n)
+void printvector(double* vector, int n)
 {
     for(int i = 0; i < n; i++){
         std::cout << vector[i] << " ";
@@ -20,7 +25,7 @@ void printvector(float* vector, int n)
 }
 
 
-void rowReduction(float** matrix, int m, int n){
+void rowReduction(double** matrix, int m, int n){
     for (int i = 0; i < m; ++i) {
         int pivotRow = i;
         for (int j = i + 1; j < m; ++j) {
@@ -51,13 +56,13 @@ void rowReduction(float** matrix, int m, int n){
     }
 }
 
-void inverse(float** matrix, int m, int n){
+void inverse(double** matrix, int m, int n){
     if (m != n) {
         return;
     }
-    float** inverse = new float*[m];
+    double** inverse = new double*[m];
     for(int i = 0; i < m; i++){
-        inverse[i] = new float[n * 2];
+        inverse[i] = new double[n * 2];
     }
     for(int i = 0; i < m; i++){
         for(int j = 0; j < n; j++){
@@ -77,12 +82,12 @@ void inverse(float** matrix, int m, int n){
     }
 }
 
-float* matrixVectorMultiplication(float** matrix, float* vector){
+double* matrixVectorMultiplication(double** matrix, double* vector){
     if (sizeof(matrix[0]) != sizeof(vector) || sizeof(matrix[0]) == 0) {
         return nullptr;
     }
 
-    float* result = new float[sizeof(matrix) / sizeof(matrix[0])];
+    double* result = new double[sizeof(matrix) / sizeof(matrix[0])];
     for (int i = 0; i < sizeof(matrix) / sizeof(matrix[0]); ++i) {
         result[i] = 0;
         for (int j = 0; j < sizeof(vector); ++j) {
@@ -92,14 +97,14 @@ float* matrixVectorMultiplication(float** matrix, float* vector){
     return result;
 }
 
-float** matrixMultiplication(float** matrix1, float** matrix2){
+double** matrixMultiplication(double** matrix1, double** matrix2){
     if (sizeof(matrix1[0]) != sizeof(matrix2) || sizeof(matrix1[0]) == 0) {
         return nullptr;
     }
 
-    float** result = new float*[sizeof(matrix1) / sizeof(matrix1[0])];
+    double** result = new double*[sizeof(matrix1) / sizeof(matrix1[0])];
     for(int i = 0; i < sizeof(matrix1) / sizeof(matrix1[0]); i++){
-        result[i] = new float[sizeof(matrix2[0])];
+        result[i] = new double[sizeof(matrix2[0])];
     }
     for (int i = 0; i < sizeof(matrix1) / sizeof(matrix1[0]); ++i) {
         for (int j = 0; j < sizeof(matrix2[0]); ++j) {
@@ -112,16 +117,28 @@ float** matrixMultiplication(float** matrix1, float** matrix2){
     return result;
 }
 
-int determinant(float** matrix, int n){
+double dotProduct(double* vector1, double* vector2){
+    if (sizeof(vector1) != sizeof(vector2) || sizeof(vector1) == 0) {
+        return 0;
+    }
+
+    double result = 0;
+    for (int i = 0; i < sizeof(vector1); ++i) {
+        result += vector1[i] * vector2[i];
+    }
+    return result;
+}
+
+int determinant(double** matrix, int n){
     if (n == 1) {
         return matrix[0][0];
     }
 
     int det = 0;
     for (int i = 0; i < n; ++i) {
-        float** submatrix = new float*[n - 1];
+        double** submatrix = new double*[n - 1];
         for(int j = 0; j < n - 1; j++){
-            submatrix[j] = new float[n - 1];
+            submatrix[j] = new double[n - 1];
         }
         for (int j = 1; j < n; ++j) {
             for (int k = 0; k < n; ++k) {
@@ -137,7 +154,7 @@ int determinant(float** matrix, int n){
     return det;
 }
 
-bool isEigenvalue(float** matrix, int lambda){
+bool isEigenvalue(double** matrix, int lambda){
     for (int i = 0; i < sizeof(matrix) / sizeof(matrix[0]); ++i) {
         for (int j = 0; j < sizeof(matrix[0]); ++j) {
             if (i == j) {
@@ -153,7 +170,7 @@ bool isEigenvalue(float** matrix, int lambda){
     }
 }
 
-bool independent(float** matrix){
+bool independent(double** matrix){
     rowReduction(matrix, sizeof(matrix) / sizeof(matrix[0]), sizeof(matrix[0]));
     for (int i = 0; i < sizeof(matrix) / sizeof(matrix[0]); ++i) {
         for (int j = 0; j < sizeof(matrix[0]); ++j) {
@@ -165,7 +182,7 @@ bool independent(float** matrix){
     return true;
 }
 
-int rank(float** matrix){
+int rank(double** matrix){
     rowReduction(matrix, sizeof(matrix) / sizeof(matrix[0]), sizeof(matrix[0]));
     int rank = 0;
     for (int i = 0; i < sizeof(matrix) / sizeof(matrix[0]); ++i) {
@@ -180,9 +197,9 @@ int rank(float** matrix){
 
 int main()
 {
-    float** matrix = new float*[3];
+    double** matrix = new double*[3];
     for(int i = 0; i < 3; i++){
-        matrix[i] = new float[3];
+        matrix[i] = new double[3];
     }
     matrix[0][0] = 1;
     matrix[0][1] = 2;
@@ -194,9 +211,9 @@ int main()
     matrix[2][1] = 0;
     matrix[2][2] = 10;
 
-    float** matb = new float*[3];
+    double** matb = new double*[3];
     for(int i = 0; i < 3; i++){
-        matb[i] = new float[3];
+        matb[i] = new double[3];
     }
     matb[0][0] = 1;
     matb[0][1] = 2;
@@ -208,7 +225,7 @@ int main()
     matb[2][1] = 0;
     matb[2][2] = 10;
     
-    float* vector = new float[3];
+    double* vector = new double[3];
     vector[0] = 1;
     vector[1] = 2;
     vector[2] = 3;
