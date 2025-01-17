@@ -1,0 +1,10 @@
+^C:\USERS\AJOSAN25\GITHUBOPENSRC\CTORCH\BUILD\CMAKEFILES\6906514145FD079CEB6B6E807B3A2AA0\GENERATE.STAMP.RULE
+setlocal
+C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/ajosan25/GithubOpenSrc/CTorch -BC:/Users/ajosan25/GithubOpenSrc/CTorch/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ajosan25/GithubOpenSrc/CTorch/build/my_project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

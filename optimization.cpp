@@ -4,6 +4,10 @@
 #include <cmath>
 #include <string>
 using namespace std;
+#include <nanobind/nanobind.h>
+#include <nanobind/stl/string.h>
+#include <nanobind/stl/vector.h>
+#include <nanobind/stl/function.h>
 
 using Vector = vector<double>;
 using Matrix = vector<Vector>;
@@ -17,7 +21,9 @@ Vector gradient(Vector params, VectorFunction f, double numericalStep = 0.001) {
     for (int i = 0; i < params.size(); ++i) {
         Vector inputPlus = params;
         inputPlus[i] += numericalStep;
-        grad.push_back((f(inputPlus) - f(params)) / numericalStep);
+        Vector inputMinus = params;
+        inputMinus[i] -= numericalStep;
+        grad.push_back((f(inputPlus) - f(inputMinus)) / (2 * numericalStep));
     }
     return grad;
 }
@@ -51,20 +57,17 @@ string printVector(Vector input) {
     return result;
 }
 
-void gradientDescent(VectorFunction f, Vector start, double learningRate = 0.01, int iterations = 100, double alpha = 0.9) {
-    Vector params = start;
-    double x_prev = 0;
-    for (int i = 0; i < iterations; ++i) {
-        Vector grad = gradient(params, f);
-        for (int j = 0; j < params.size(); ++j) {
-            params[j] -= learningRate * grad[j] + alpha * (params[j] - x_prev);
-            x_prev = params[j];
-        }
-        //print
-        cout << printVector(params) << endl;
+Vector gradientDescent(VectorFunction f, Vector params, Vector paramsPrev, double learningRate = 0.01, double alpha = 0.9) {
+    Vector grad = gradient(params, f);
+    for (int j = 0; j < params.size(); ++j) {
+        params[j] -= learningRate * grad[j] + alpha * (params[j] - paramsPrev[j]);
     }
+    return params;
 }
 
-int main(){
-    gradientDescent(testFunction, {-3, -1}, 0.085, 0);
+NB_MODULE(optimization, m) {
+    m.def("gradient", &gradient, "A function to calculate the gradient of a function");
+    m.def("testFunction", &testFunction, "A test function for optimization");
+    m.def("gradientDescent", &gradientDescent, "A function to perform gradient descent");
+    m.def("printVector", &printVector, "A function to print a vector");
 }

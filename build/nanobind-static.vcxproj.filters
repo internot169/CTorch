@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\nb_internals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\nb_func.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\nb_type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\nb_enum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\nb_ndarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\nb_static_property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\trampoline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\implicit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\make_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nanobind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_accessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_attr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_call.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_cast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_descr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_python.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_tuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\nb_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\ndarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\trampoline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\typing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\operators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\bind_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\bind_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\detail\nb_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\detail\nb_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\detail\nb_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\detail\nb_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\detail\traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\filesystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\optional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\pair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\shared_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\string_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\tuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\unique_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\unordered_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\unordered_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\variant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\eigen\dense.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\eigen\sparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\src\nb_internals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ajosan25\GithubOpenSrc\CTorch\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages\nanobind\include\nanobind\stl\detail" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{413C81D5-8371-350D-9381-5CCB96DAD0D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FD6C76D8-8276-3AF2-B545-D6E30439D0AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
