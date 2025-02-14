@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-      Build started 1/17/2025 12:06:23 PM.
+      Build started 2/14/2025 2:19:08 PM.
       Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
       
       Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\3.26.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
@@ -52,7 +52,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.93
+      Time Elapsed 00:00:02.23
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -78,7 +78,7 @@ events:
       The output was:
       0
       MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-      Build started 1/17/2025 12:06:25 PM.
+      Build started 2/14/2025 2:19:11 PM.
       Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
       
       Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\3.26.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
@@ -106,7 +106,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.97
+      Time Elapsed 00:00:01.33
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,8 +125,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-6sd4kz"
-      binary: "C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-6sd4kz"
+      source: "C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-hcrz0q"
+      binary: "C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-hcrz0q"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -135,38 +135,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-6sd4kz
+        Change Dir: C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-hcrz0q
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5abee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Build started 1/17/2025 12:06:28 PM.
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a7dd2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 2/14/2025 2:19:14 PM.
         Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
         
-        Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6sd4kz\\cmTC_5abee.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hcrz0q\\cmTC_a7dd2.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_5abee.dir\\Debug\\".
-          Creating directory "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6sd4kz\\Debug\\".
-          Creating directory "cmTC_5abee.dir\\Debug\\cmTC_5abee.tlog\\".
+          Creating directory "cmTC_a7dd2.dir\\Debug\\".
+          Creating directory "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hcrz0q\\Debug\\".
+          Creating directory "cmTC_a7dd2.dir\\Debug\\cmTC_a7dd2.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_5abee.dir\\Debug\\cmTC_5abee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_a7dd2.dir\\Debug\\cmTC_a7dd2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5abee.dir\\Debug\\\\" /Fd"cmTC_5abee.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ajosan25\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7dd2.dir\\Debug\\\\" /Fd"cmTC_a7dd2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ajosan25\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCCompilerABI.c
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5abee.dir\\Debug\\\\" /Fd"cmTC_5abee.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ajosan25\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7dd2.dir\\Debug\\\\" /Fd"cmTC_a7dd2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ajosan25\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6sd4kz\\Debug\\cmTC_5abee.exe" /INCREMENTAL /ILK:"cmTC_5abee.dir\\Debug\\cmTC_5abee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-6sd4kz/Debug/cmTC_5abee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-6sd4kz/Debug/cmTC_5abee.lib" /MACHINE:X64  /machine:x64 cmTC_5abee.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_5abee.vcxproj -> C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6sd4kz\\Debug\\cmTC_5abee.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hcrz0q\\Debug\\cmTC_a7dd2.exe" /INCREMENTAL /ILK:"cmTC_a7dd2.dir\\Debug\\cmTC_a7dd2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-hcrz0q/Debug/cmTC_a7dd2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-hcrz0q/Debug/cmTC_a7dd2.lib" /MACHINE:X64  /machine:x64 cmTC_a7dd2.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a7dd2.vcxproj -> C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hcrz0q\\Debug\\cmTC_a7dd2.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_5abee.dir\\Debug\\cmTC_5abee.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5abee.dir\\Debug\\cmTC_5abee.tlog\\cmTC_5abee.lastbuildstate".
-        Done Building Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6sd4kz\\cmTC_5abee.vcxproj" (default targets).
+          Deleting file "cmTC_a7dd2.dir\\Debug\\cmTC_a7dd2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a7dd2.dir\\Debug\\cmTC_a7dd2.tlog\\cmTC_a7dd2.lastbuildstate".
+        Done Building Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hcrz0q\\cmTC_a7dd2.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.47
+        Time Elapsed 00:00:03.74
         
       exitCode: 0
   -
@@ -178,8 +178,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-rlj82h"
-      binary: "C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-rlj82h"
+      source: "C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-ryb4er"
+      binary: "C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-ryb4er"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -188,38 +188,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-rlj82h
+        Change Dir: C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-ryb4er
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9feb6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Build started 1/17/2025 12:06:30 PM.
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1caab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 2/14/2025 2:19:20 PM.
         Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
         
-        Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlj82h\\cmTC_9feb6.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryb4er\\cmTC_1caab.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_9feb6.dir\\Debug\\".
-          Creating directory "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlj82h\\Debug\\".
-          Creating directory "cmTC_9feb6.dir\\Debug\\cmTC_9feb6.tlog\\".
+          Creating directory "cmTC_1caab.dir\\Debug\\".
+          Creating directory "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryb4er\\Debug\\".
+          Creating directory "cmTC_1caab.dir\\Debug\\cmTC_1caab.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9feb6.dir\\Debug\\cmTC_9feb6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_1caab.dir\\Debug\\cmTC_1caab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9feb6.dir\\Debug\\\\" /Fd"cmTC_9feb6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\ajosan25\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1caab.dir\\Debug\\\\" /Fd"cmTC_1caab.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\ajosan25\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9feb6.dir\\Debug\\\\" /Fd"cmTC_9feb6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\ajosan25\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1caab.dir\\Debug\\\\" /Fd"cmTC_1caab.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\ajosan25\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlj82h\\Debug\\cmTC_9feb6.exe" /INCREMENTAL /ILK:"cmTC_9feb6.dir\\Debug\\cmTC_9feb6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-rlj82h/Debug/cmTC_9feb6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-rlj82h/Debug/cmTC_9feb6.lib" /MACHINE:X64  /machine:x64 cmTC_9feb6.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_9feb6.vcxproj -> C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlj82h\\Debug\\cmTC_9feb6.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryb4er\\Debug\\cmTC_1caab.exe" /INCREMENTAL /ILK:"cmTC_1caab.dir\\Debug\\cmTC_1caab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-ryb4er/Debug/cmTC_1caab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ajosan25/GithubOpenSrc/CTorch/build/CMakeFiles/CMakeScratch/TryCompile-ryb4er/Debug/cmTC_1caab.lib" /MACHINE:X64  /machine:x64 cmTC_1caab.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1caab.vcxproj -> C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryb4er\\Debug\\cmTC_1caab.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_9feb6.dir\\Debug\\cmTC_9feb6.tlog\\unsuccessfulbuild".
-          Touching "cmTC_9feb6.dir\\Debug\\cmTC_9feb6.tlog\\cmTC_9feb6.lastbuildstate".
-        Done Building Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlj82h\\cmTC_9feb6.vcxproj" (default targets).
+          Deleting file "cmTC_1caab.dir\\Debug\\cmTC_1caab.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1caab.dir\\Debug\\cmTC_1caab.tlog\\cmTC_1caab.lastbuildstate".
+        Done Building Project "C:\\Users\\ajosan25\\GithubOpenSrc\\CTorch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryb4er\\cmTC_1caab.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.53
+        Time Elapsed 00:00:01.42
         
       exitCode: 0
 ...

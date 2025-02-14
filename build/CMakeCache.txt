@@ -348,6 +348,8 @@ _Python_INCLUDE_DIR:INTERNAL=C:/Users/ajosan25/AppData/Local/Programs/Python/Pyt
 //Python Properties
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;4;64;;cp310-win_amd64;;C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib;C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib;C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages;C:\Users\ajosan25\AppData\Local\Programs\Python\Python310\Lib\site-packages
 _Python_INTERPRETER_SIGNATURE:INTERNAL=25dcd087176df68a36a7f33e37a5e4b2
+//Interpreter reason failure
+_Python_Interpreter_REASON_FAILURE:INTERNAL=
 //Path to a library.
 _Python_LIBRARY_DEBUG:INTERNAL=_Python_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
