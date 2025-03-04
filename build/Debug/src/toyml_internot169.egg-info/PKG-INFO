@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: toyml_internot169
+Version: 0.0.1
+Summary: A small example package
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

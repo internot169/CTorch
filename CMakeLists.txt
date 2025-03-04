@@ -21,3 +21,4 @@ execute_process(
 find_package(nanobind CONFIG REQUIRED)
 
 nanobind_add_module(toyml build.cpp)
+nanobind_add_module(optimization optimization.cpp)

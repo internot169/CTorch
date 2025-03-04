@@ -1,0 +1,10 @@
+[project]
+name = "toyml_internot169"
+version = "0.0.1"
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]

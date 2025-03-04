@@ -173,9 +173,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ajosan25\GithubOpenSrc\CTorch\build\toyml.vcxproj">
-      <Project>{224A116F-814A-3994-ACC7-CF9B0E00DF94}</Project>
-      <Name>toyml</Name>
+    <ProjectReference Include="C:\Users\ajosan25\GithubOpenSrc\CTorch\build\optimization.vcxproj">
+      <Project>{507D0FA3-5D13-35DF-A3C0-8B867965EA10}</Project>
+      <Name>optimization</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
