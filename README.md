@@ -2,11 +2,11 @@
 
 ## Running the code
 
-Run
+To install the package from test PyPi, run
 
-ˋˋˋ
+```
 pip install -i https://test.pypi.org/simple/ toyml-internot169==0.0.1
-ˋˋˋ
+```
 
 ## Architectural Choices
 For the architecture, I've created an abstraction called a Predictor which encompasses all of the individual algorithms under one umbrella. Each Predictor takes in a set of parameters (matrices, vectors, activations) and performs operations on given inputs based on the parameters. Each separate machine learning model will perform its own set of operations. Encapsulating the matrices, vectors, and activations within a Predictor allows the Predictor to easily modify the matrix and vector parameters to better fit the data. It also allows for easy modularity in implementing new algorithms - the same code for the optimization loop works for every individual predictor. This also allows the data to be housed externally (fed in as an input to each predictor), which prevents data leakage. Data that the model should never see will never be seen by the model. Lastly, the internal housing of the matrices and vectors allows for the addition of backpropagation history, which is a slight improvement on pure numerical differentiation.
